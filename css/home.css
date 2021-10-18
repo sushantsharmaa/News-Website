@@ -1,0 +1,30 @@
+body{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;  
+}
+
+#one{
+   display: flex;
+}
+
+#one img {
+    width: 10%;
+}
+
+#data{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-gap: 50px;
+}
+
+#data > div > a > img {
+    width: 100%;
+}
+
+#data > div > a > img:hover{
+    cursor: pointer;
+}
